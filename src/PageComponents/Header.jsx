@@ -32,7 +32,7 @@ export default function ButtonAppBar() {
   useEffect(() => {
     const fetchWeather = async () => {
       const apiKey = "513adddb0168bd5149e9dc0d91bac7dc";
-      const cityName = "seoul";
+      const cityName = "degu";
       const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&units=metric&appid=${apiKey}`;
 
       try {
