@@ -105,8 +105,8 @@ const ChartMain = ({ gender, times }) => {
           <Typography
             key={index} // 고유 키 설정
             sx={{
-              // px: 100 > 99 ? 4 : value > 9 ? 0.8 : 1.5, // 좌우 패딩
-              mx: value > 99 ? 4.9 : value > 9 ? 5.6 : 6,
+              px: 1.5, // 좌우 패딩
+              mx: value > 99 ? 3.4 : value > 9 ? 4.1 : 4.83,
               py: 0.5, // 상하 패딩
               fontSize: { xs: '14px', sm: '16px', md: '18px', lg: '20px' }, // 반응형 폰트 크기
               fontWeight: 'bold',
@@ -115,7 +115,7 @@ const ChartMain = ({ gender, times }) => {
               textAlign: 'center',
             }}
           >
-            {value < 10 ? `${value} ` : `${value}`}명
+            {value}명
           </Typography>
         ))}
       </Box>
