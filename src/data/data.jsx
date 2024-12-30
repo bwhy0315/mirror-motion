@@ -1,4 +1,4 @@
-var initialData = [
+var DataHair = [
     {
         age: "10대",
         times:[
